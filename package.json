@@ -1,0 +1,27 @@
+{
+  "name": "emailsummarizer",
+  "version": "1.0.0",
+  "description": "an app to keep upto date with all your emails",
+  "license": "ISC",
+  "author": "Faheem12005",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "@langchain/core": "^0.3.61",
+    "@langchain/ollama": "^0.2.3",
+    "@langchain/openai": "^0.5.16",
+    "cheerio": "^1.1.0",
+    "dotenv": "^17.0.0",
+    "googleapis": "^105.0.0",
+    "ollama": "^0.5.16",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "typescript": "^5.8.3"
+  }
+}
